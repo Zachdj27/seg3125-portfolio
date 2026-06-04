@@ -3,7 +3,8 @@ const projects = [
       title: 'Design 1: Service Website',
       description: 'A responsive website for a fake business.',
       image:
-        'https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?q=80&w=1470&auto=format&fit=crop'
+        'https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?q=80&w=1470&auto=format&fit=crop',
+      link: 'https://supercutz.netlify.app'
     },
     {
       title: 'Design 2: Memory Game.',
@@ -49,10 +50,15 @@ const projects = [
                     <p className="text-light-emphasis">
                       {project.description}
                     </p>
-  
-                    <button className="btn btn-outline-light">
-                      Coming Soon
-                    </button>
+                  {project.link ? (
+                    <a href={project.link} target="_blank" rel="noopener noreferrer"className="btn btn-outline-light">
+                      View Project
+                    </a>
+                    ) : (
+                      <button className="btn btn-outline-light">
+                        Coming Soon
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>
