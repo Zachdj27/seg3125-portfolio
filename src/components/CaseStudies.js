@@ -10,7 +10,8 @@ const projects = [
       title: 'Design 2: Memory Game.',
       description:'Interactive game built for the web',
       image:
-        'https://images.unsplash.com/photo-1541278107931-e006523892df?q=80&w=1471&auto=format&fit=crop'
+        'https://images.unsplash.com/photo-1541278107931-e006523892df?q=80&w=1471&auto=format&fit=crop',
+        link: 'https://think-tiles.netlify.app'
     },
     {
       title: 'Design 3: E-commerce site',
