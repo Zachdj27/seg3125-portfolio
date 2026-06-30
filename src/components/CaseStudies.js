@@ -17,7 +17,8 @@ const projects = [
       title: 'Design 3: E-commerce site',
       description: 'Modern e-commerce shopping experience.',
       image:
-        'https://plus.unsplash.com/premium_photo-1683746792239-6ce8cdd3ac78?q=80&w=687&auto=format&fit=crop'
+        'https://plus.unsplash.com/premium_photo-1683746792239-6ce8cdd3ac78?q=80&w=687&auto=format&fit=crop',
+        link: 'https://chronos-e-commerce.netlify.app'
     },
     {
       title: 'Design 4: Analytics Dashboard',
